@@ -202,7 +202,6 @@ with torch.no_grad():
 
 new_prediction.argmax()
 
-torch.save(model.state_dict(), 'Vishal.pt')
 
 new_model = ConvolutionalNetwork() # Replace Model with ConvolutionalNetwork
 new_model.eval()
