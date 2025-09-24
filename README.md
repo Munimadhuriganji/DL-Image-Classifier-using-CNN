@@ -205,7 +205,6 @@ new_prediction.argmax()
 torch.save(model.state_dict(), 'Vishal.pt')
 
 new_model = ConvolutionalNetwork() # Replace Model with ConvolutionalNetwork
-new_model.load_state_dict(torch.load('Bharathwaj.pt'))
 new_model.eval()
 
 ```
